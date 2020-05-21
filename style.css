@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+body {
+    line-height: 1.2em;
+    background-color: #eee;
+    font-family: sans-serif;
+    color: #222;
+}
+
+#wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin: 1em;
+}
+
+.line-over {
+    border-top: 1px solid #444444;
+    padding-top: 16px;
+}
+
+a {
+    color: #47a;
+}
+a:visited {
+    color: #941452;
+}
+
+/* nav bar */
+nav {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: grey;
+    height: 2.5em;
+}
+
+nav a:hover {
+  background-color: black; /* when hover: make bacgkround black */
+}
+nav a {
+  padding: 15px;
+  transition: .5s; /* any time user uses a new effect, transition for half a second*/
+  line-height: 2.5em;
+}
