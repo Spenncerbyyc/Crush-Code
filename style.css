@@ -51,3 +51,8 @@ nav a {
   transition: .5s; /* any time user uses a new effect, transition for half a second*/
   line-height: 2.5em;
 }
+
+img {
+    width: 75%;
+    margin: auto;
+}
