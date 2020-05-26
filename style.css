@@ -15,7 +15,7 @@ body {
 }
 
 #wrapper {
-    width: 50%;
+    width: 75%;
     margin: auto;
 }
 
@@ -39,12 +39,10 @@ a:visited {
 nav {
     margin-top: 16px;
     margin-bottom: 16px;
-    background-color: grey;
-    height: 2.5em;
 }
 
 nav a:hover {
-  background-color: black; /* when hover: make bacgkround black */
+    color: grey;
 }
 nav a {
   padding: 15px;
@@ -52,7 +50,20 @@ nav a {
   line-height: 2.5em;
 }
 
+@media screen and (max-width: 800px){
+    nav a {
+        display: inline-block;
+    }
+    #wrapper {
+        width: 90%;
+        margin: auto;
+    }
+}
+
 img {
-    width: 75%;
+    width: 40%;
+}
+#imgwrapper {
+    width: 60%;
     margin: auto;
 }
